@@ -13,7 +13,7 @@ table initTable()                               //初始化表
 	t.head = (int*)malloc(Size * sizeof(int));
 	if (!t.head)
 	{
-		print("初始化失败");
+		printf("初始化失败");
 		exit(0);
 	}
 	t.length = 0;
