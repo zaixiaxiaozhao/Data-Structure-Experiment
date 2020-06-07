@@ -9,6 +9,7 @@ int main()
 	double C;
 	printf("输入所求数的值：\n");
 	scanf_s("%d", &m);
+	printf("2 ");
 	for (n = 3; n <= m; n += 2)
 	{
 		k = sqrt(n);       //开方省步骤
