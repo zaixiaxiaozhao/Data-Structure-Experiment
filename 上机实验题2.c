@@ -57,7 +57,7 @@ void LocateElem(table t, int elem)				//查找数值返回信息
 	for (int i = 0; i < t.length; i++)
 	{
 		if (t.head[i] == elem)
-			return(printf("\n该数值在表中的第%d位\n", i));
+			return(printf("\n该数值在表中的第%d位\n", i+1));
 	}
 	return(printf("\n该数值不在表中\n"));
 }
